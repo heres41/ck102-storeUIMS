@@ -132,11 +132,11 @@ function orderItem(itemID){
 
 
 </head>
-<table class="headerTable">
+<!--table class="headerTable">
 	<tr>
 		<td><span class="pageTitle"><h1>Welcome to the Online Store!</h1></span></td> 
 	</tr>
-</table>
+</table-->
 <body  onload="loadItems()">
  <div class="brand">CK102 Store</div>
     <div class="address-bar">2 Bloor Street West, Toronto | 416 123 1234</div>
