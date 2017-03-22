@@ -55,7 +55,7 @@ function addItem(item){
              +   "<div class='col-md-6'>"
               +  "    <p>"+item.description+"</p>"
               +  "    <p><strong>"+item.usaDollarPrice+"</strong></p>"
-              +  "    <br><button onclick='orderItem(\""+item._id+"\")'><b>Buy</b></button>"
+              +  "    <br><button type='button' class='btn btn-default' onclick='orderItem(\""+item._id+"\")'><b>Buy</b></button>"
 			+"		</div>"
            +  "   <div class='clearfix'></div>"
          +   "</div>";
