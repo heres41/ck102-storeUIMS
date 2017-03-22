@@ -134,7 +134,7 @@ function orderItem(itemID){
 </head>
 <table class="headerTable">
 	<tr>
-		<td></td> 
+		<td><span class="pageTitle"><h1></h1></span></td> 
 	</tr>
 </table>
 <body  onload="loadItems()">
