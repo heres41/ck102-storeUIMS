@@ -50,7 +50,7 @@ function addItem(item){
             +   "     <hr>"
             +    "</div>"
             +    "<div class='col-md-6'>"
-             +   "    <img class='img-responsive img-border-left' src = '"+item.imgsrc+"' alt=''>"
+             +   "    <img class='img-responsive img-border-left' style='max-width:300px;' src = '"+item.imgsrc+"' alt=''>"
               +  "</div>"
              +   "<div class='col-md-6'>"
               +  "    <p>"+item.description+"</p>"
@@ -132,11 +132,6 @@ function orderItem(itemID){
 
 
 </head>
-<table class="headerTable">
-	<tr>
-		<td><span class="pageTitle"><h1></h1></span></td> 
-	</tr>
-</table>
 <body  onload="loadItems()">
  <div class="brand">CK102 Store</div>
     <div class="address-bar">2 Bloor Street West, Toronto | 416 123 1234</div>
