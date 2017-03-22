@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: ck102-storeUIMS
+  host: ck102-storeuims
+  disk_quota: 1024M
+  buildpack: php_buildpack
+  services:
+  - ck102-CatalogMS-API
+  - ck102-OrdersMS-API
